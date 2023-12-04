@@ -1,1 +1,47 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    display: grid;
+    grid-template-columns: 340px 1fr;
+}
 
+.nomImg{
+    display: grid;
+    justify-content: center;
+    margin-left: 30px;
+    background:linear-gradient(#F0604D 20px,#F79F95 );
+    width:250px;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 1px 1px 6px 0.5px rgba(128, 128, 128, 0.741);
+}
+li{
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+main{
+    margin-top: 100px;
+}
+
+.competence{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    justify-content: space-around;
+}
+#competence{
+    display: flex;
+    flex-direction: column;
+}
+
+main > .perso{
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #FFDFDB;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 2px 2px 3px 1px rgba(128, 128, 128, 0.533);
+}
+
+.titre{
+    display: grid;
+    grid-template-columns: 500px;
+    margin-left: 100px;
+}
