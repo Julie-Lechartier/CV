@@ -1,3 +1,4 @@
+/*
 body{
     font-family: 'Raleway', sans-serif;
     display: grid;
@@ -32,7 +33,7 @@ main{
     flex-direction: column;
 }
 
-main > .perso{
+.perso{
     margin-top: 20px;
     padding: 20px;
     background-color: #FFDFDB;
@@ -40,8 +41,51 @@ main > .perso{
     box-shadow: 2px 2px 3px 1px rgba(128, 128, 128, 0.533);
 }
 
-.titre{
+.expe{
     display: grid;
-    grid-template-columns: 500px;
-    margin-left: 100px;
+    
+}
+*/
+body{
+    font-family: 'Raleway', sans-serif;
+    margin-left: 300px;
+    margin-right: 300px;
+
+    display: flex;
+    flex-direction: column;
+}
+header{
+    padding-left: 30px;
+    padding-bottom: 20px;
+    background-color: #99B5AC;
+    border-radius: 20px 20px 0px 0px;
+    box-shadow:1px 1px 1px 1px rgba(128, 128, 128, 0.49) ;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    
+}
+.perso{
+    padding:20px;
+    background-color: #99B5AC;
+    border-radius: 0px 0px 0px 20px;
+    box-shadow: 1px 3px 1px 1px rgba(128, 128, 128, 0.49);
+}
+.pro{
+    background-color: #99b5ac71;
+    display: flex;
+    flex-direction: column;
+    padding-left:40px ;
+    padding-top: 20px;
+    
+}
+
+.perso > h3{
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+ul{
+    list-style: circle;
 }
