@@ -1,63 +1,20 @@
-/*
 body{
-    font-family: 'Raleway', sans-serif;
-    display: grid;
-    grid-template-columns: 340px 1fr;
-}
-
-.nomImg{
-    display: grid;
-    justify-content: center;
-    margin-left: 30px;
-    background:linear-gradient(#F0604D 20px,#F79F95 );
-    width:250px;
-    border-radius: 20px 20px 20px 20px;
-    box-shadow: 1px 1px 6px 0.5px rgba(128, 128, 128, 0.741);
-}
-li{
-    list-style: none;
-    margin-bottom: 10px;
-}
-
-main{
-    margin-top: 100px;
-}
-
-.competence{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    justify-content: space-around;
-}
-#competence{
-    display: flex;
-    flex-direction: column;
-}
-
-.perso{
-    margin-top: 20px;
-    padding: 20px;
-    background-color: #FFDFDB;
-    border-radius: 20px 20px 20px 20px;
-    box-shadow: 2px 2px 3px 1px rgba(128, 128, 128, 0.533);
-}
-
-.expe{
-    display: grid;
-    
-}
-*/
-body{
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto Mono', monospace;
     margin-left: 300px;
     margin-right: 300px;
-
+    background: #ff7e86;
+    background-image: linear-gradient(45deg, #fc5762, transparent 90%),
+        radial-gradient(#ff1122 68%, transparent 5%);
+    background-size: 4em 4em;
     display: flex;
     flex-direction: column;
 }
 header{
+    display: flex;
+    justify-content: space-between;
     padding-left: 30px;
     padding-bottom: 20px;
-    background-color: #99B5AC;
+    background-color:#ffc8c8;
     border-radius: 20px 20px 0px 0px;
     box-shadow:1px 1px 1px 1px rgba(128, 128, 128, 0.49) ;
 }
@@ -68,12 +25,14 @@ main{
 }
 .perso{
     padding:20px;
-    background-color: #99B5AC;
-    border-radius: 0px 0px 0px 20px;
+    background-color: #ffc8c8;
+    border-radius: 0px 1px 0px 20px;
     box-shadow: 1px 3px 1px 1px rgba(128, 128, 128, 0.49);
 }
+
 .pro{
-    background-color: #99b5ac71;
+    color:#ffffff;
+    background-color: #54545488;
     display: flex;
     flex-direction: column;
     padding-left:40px ;
@@ -89,3 +48,42 @@ main{
 ul{
     list-style: circle;
 }
+
+button {
+    margin-top: 50px;
+    margin-right: 20px;
+    padding: 0.1em 0.25em;
+    width: 10em;
+    height: 4.2em;
+    background-color: #21212194;
+    border: 0.08em solid #fff;
+    border-radius: 0.3em;
+    font-size: 12px;
+  }
+  
+  button span {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0.4em;
+    width: 6.25em;
+    height: 2.5em;
+    background-color: #212121;
+    border-radius: 0.2em;
+    font-size: 1.5em;
+    color: #fff;
+    border: 0.08em solid #fff;
+    box-shadow: 0 0.4em 0.1em 0.019em #fff;
+  }
+  
+  button span:hover {
+    transition: all 0.5s;
+    transform: translate(0, 0.4em);
+    box-shadow: 0 0 0 0 #fff;
+  }
+  
+  button span:not(hover) {
+    transition: all 1s;
+  }
+  
