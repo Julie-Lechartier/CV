@@ -61,7 +61,7 @@ button {
     font-size: 12px;
   }
   
-  button span {
+button span {
     position: relative;
     display: flex;
     justify-content: center;
@@ -75,15 +75,60 @@ button {
     color: #fff;
     border: 0.08em solid #fff;
     box-shadow: 0 0.4em 0.1em 0.019em #fff;
-  }
+}
   
-  button span:hover {
+button span:hover {
     transition: all 0.5s;
     transform: translate(0, 0.4em);
     box-shadow: 0 0 0 0 #fff;
-  }
+}
   
-  button span:not(hover) {
+button span:not(hover) {
     transition: all 1s;
-  }
+}
   
+@media screen and (max-width:1200px) and (orientation:portrait){
+
+    body{
+        margin: 0;
+    }
+    header > .titre {
+        font-size: 11px;
+    }
+
+    button{
+        margin-top: 35px;
+        margin-right: 40px;
+        width:8em;
+    }
+    button span{
+        width: 4.85em;
+    }
+    .perso{
+        font-size: 10px;
+    }
+    .perso > h3{
+        font-size: 15px;
+    }
+    .pro{
+        font-size: 10px;
+    }
+
+}
+
+@media screen and (max-width:1380px) and (orientation:landscape){
+
+    body{
+        margin: 50px;
+    }
+}
+
+@media screen and (max-width:850px) and (orientation:landscape){
+    body{
+        margin:20px;
+    }
+    header{
+        font-size: 12px;
+    }
+
+}
